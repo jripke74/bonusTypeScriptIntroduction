@@ -73,3 +73,8 @@ buttonElement.addEventListener('click', function () {
     printResult(result, OutputMode.ALERT);
     // printResult(result, 'window');
 });
+function logAndEcho(val) {
+    console.log(val);
+    return val;
+}
+logAndEcho('Hi there!').split(' ');
